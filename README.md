@@ -40,18 +40,20 @@ PORT="3001"
 
 ## Starting the Service
 
-Run the following command to start the service, and send HTTP requests to it via <server_address>/login.
+Run the following command to start the service.
 
 ```
 npm start
 ```
 
-Clients sending POST reqeusts must include the following JSON in the request body.
+## Sending Login POST Requests
+
+Clients sending POST reqeusts must include the following JSON in the request body to <the_server_address>/login.
 
 ```
 {
-    'username': '<some_username>',
-    'password': '<some_password>'
+    'username': 'some_username',
+    'password': 'some_password'
 }
 ```
 
