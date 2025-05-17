@@ -46,4 +46,13 @@ Run the following command to start the service, and send HTTP requests to it via
 npm start
 ```
 
+Clients sending POST reqeusts must include the following JSON in the request body.
+
+```
+{
+    'username': '<some_username>',
+    'password': '<some_password>'
+}
+```
+
 You can see example HTTP requests in javascript and python [here](sample_usage).
