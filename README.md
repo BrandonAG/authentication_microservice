@@ -4,6 +4,8 @@ Processes login HTTP POST requests for matching user credentials in MongoDB data
 
 ## Setup
 
+This setup assumes you already have a MongoDB database setup, with a collection that stores user credentials.
+
 ### Package Installation
 
 Run the following command at the root of the directory.
