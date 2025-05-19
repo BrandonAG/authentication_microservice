@@ -49,7 +49,7 @@ Run the following command to start the service.
 npm start
 ```
 
-## Sending Login POST Requests
+## Sending Login POST Requests and Receiving Server Response
 
 Clients sending POST requests must include the following JSON in the request body to <the_server_address>/login.
 
@@ -57,6 +57,14 @@ Clients sending POST requests must include the following JSON in the request bod
 {
     'username': 'some_username',
     'password': 'some_password'
+}
+```
+
+Clients will receive an HTTP reponse with the following JSON format. The response will either be "true" if the user credentials match or "false" if the credentials do not match.
+
+```
+{
+    "response": "true"
 }
 ```
 

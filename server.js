@@ -43,12 +43,12 @@ app.post('/login', async (req, res) => {
 
         // check if username and password match
         if (result !== null && result[process.env.PW_FIELD_NAME] == password) {
-            res.json(true);
+            res.json({response: 'true'});
         } else {
-            res.json(false);
+            res.json({response: 'false'});
         }
     } else {
-        res.json(false);
+        res.json({response: 'false'});
     }
 
 });
