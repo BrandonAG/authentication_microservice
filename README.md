@@ -2,9 +2,12 @@
 
 Processes login HTTP POST requests for matching user credentials in MongoDB database.
 
-## Setup
+## Prerequisites
 
-This setup assumes you already have a MongoDB database setup, with a collection that stores user credentials.
+- Node.js installation
+- MongoDB database setup, with a collection that stores user credentials
+
+## Setup
 
 ### Package Installation
 
@@ -48,7 +51,7 @@ npm start
 
 ## Sending Login POST Requests
 
-Clients sending POST reqeusts must include the following JSON in the request body to <the_server_address>/login.
+Clients sending POST requests must include the following JSON in the request body to <the_server_address>/login.
 
 ```
 {
@@ -57,4 +60,4 @@ Clients sending POST reqeusts must include the following JSON in the request bod
 }
 ```
 
-You can see example HTTP requests in javascript and python [here](sample_usage).
+You can see example HTTP requests in JavaScript and Python [here](sample_usage).
