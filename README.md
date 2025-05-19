@@ -61,3 +61,7 @@ Clients sending POST requests must include the following JSON in the request bod
 ```
 
 You can see example HTTP requests in JavaScript and Python [here](sample_usage).
+
+## UML Sequence Diagram
+
+![UML sequence diagram of the microservice.](uml_diagram.png)
